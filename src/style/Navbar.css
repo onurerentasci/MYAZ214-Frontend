@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.navbar-container{
+    height: 15vh;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+    background-color: #f2f2f2;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 0 1rem;
+    display: "flex"; 
+    justify-content: "space-between";
+}
+
+.navbar-container > div {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
